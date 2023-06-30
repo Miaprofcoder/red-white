@@ -14,8 +14,6 @@
 
 ## Table of Contents (Optional)
 
-If your README is long, add a table of contents to make it easy for users to find what they need.
-
 - [Installation](#installation)
 - [Usage](#usage)
 - [Credits](#credits)
@@ -23,7 +21,13 @@ If your README is long, add a table of contents to make it easy for users to fin
 
 ## Installation
 
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
+1. Ensure you have NodeJS installed on your computer. [Click here if you need to install NodeJS.](https://nodejs.org/en)
+2. Clone or download the zip of the GitHub repository. Extract and navigate to the repository in your directory.
+3. Open your command-line terminal in your repository directory and type `npm i` to download all npm package dependencies needed to run the program.
+4. Ensure you have the ecommerce_db schema on your MySQL database schemas. [If unsure on how to setup MySQL schemas, click here.](https://dev.mysql.com/doc/refman/8.0/en/create-database.html)
+5. A .env file will be needed to establish environment variables for your database's name, user, and password. DB_NAME, DB_USER, & DB_PASSWORD are the required key names to properly initialize your MySQL connection via Sequelize. [If you're unfamiliar with .env files, click here.](https://nodejs.dev/en/learn/how-to-read-environment-variables-from-nodejs/).
+6. Once a .env file has been properly set, do `npm start` in your command-line terminal to start the application. IT IS RECOMMENDED TO USE AN APPLICATION LIKE INSOMNIA TO TEST OUT THE BACK-END API. 
+7. *OPTIONAL: If you would like to have starter data in your database to play around with, type `npm run seed` on your terminal to seed starter data in your database.*
 
 ## Usage
 
