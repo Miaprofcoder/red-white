@@ -1,7 +1,7 @@
-const express = require('express');
-const routes = require('./routes');
+const express = require("express");
+const routes = require("./routes");
 // import sequelize connection
-const sequelize = require('./config/connection')
+const sequelize = require("./config/connection");
 
 const app = express();
 const PORT = process.env.PORT || 3001;
@@ -17,6 +17,6 @@ async function init() {
   app.listen(PORT, () => {
     console.log(`App listening on port ${PORT}!`);
   });
-};
+}
 
 init();
