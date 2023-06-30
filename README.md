@@ -1,4 +1,4 @@
-# e-commerce-backend
+# E Commerce Backend API (UCSD Challenge 13)
 
 ## Description
 
