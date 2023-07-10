@@ -12,13 +12,6 @@
 - Uses ExpressJS as a web framework, and NodeJS as a server environment.
 - GET, POST, PUT, and DELETE HTTP methods for each API endpoint.
 
-## Table of Contents
-
-- [Installation](#installation)
-- [Usage](#usage)
-- [Credits](#credits)
-- [License](#license)
-
 ## Installation
 
 1. Ensure you have NodeJS installed on your computer. [Click here if you need to install NodeJS.](https://nodejs.org/en)
@@ -31,8 +24,9 @@
 
 ## Usage
 
-**To see the api in action, click on the gif below to see the full demo usage of the back-end api.**
-[[e-commerce-api backend-api demo](./Assets/13-orm-homework-demo-01.gif)](./Assets/e-commerce-demo.mp4)
+**To see the api in action, click on the video below to see the full demo usage of the back-end api.**
+
+[Demo video](https://github.com/epicasino/e-commerce-backend/assets/99784684/6db62c90-a930-4fea-8f07-4d98efe8e0f6)
 
 ## License
 
